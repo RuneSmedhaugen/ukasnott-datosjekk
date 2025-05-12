@@ -33,7 +33,7 @@ function calculateDate() {
   daysElement.textContent = "🤔 Loading the cursed prophecy...";
   daysElement.classList.add("loading");
 
-  const suspenseAudio = new Audio("/sound/suspense.mp3");
+  const suspenseAudio = new Audio("sound/suspense.mp3");
   suspenseAudio.play();
 
   fill.style.height = `0%`;
@@ -69,11 +69,11 @@ function calculateDate() {
           overlay.style.display = "none";
         }, 5000);
 
-        const jumpscareAudio = new Audio("/sound/jumpscare.mp3");
+        const jumpscareAudio = new Audio("sound/jumpscare.mp3");
         jumpscareAudio.play();
 
         setTimeout(() => {
-          const evilLaughAudio = new Audio("/sound/el.mp3");
+          const evilLaughAudio = new Audio("sound/el.mp3");
           evilLaughAudio.play();
         }, 850);
 
