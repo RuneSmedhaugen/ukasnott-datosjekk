@@ -8,7 +8,7 @@ function html() {
     <input type="date" id="date" value="${date.toISOString().split("T")[0]}">
     <button id="calculate" onclick="calculateDate()">Calculate</button>
     <div id="jumpscareOverlay">
-    <img src="/img/jv.jpg" id="jumpscareImage" alt="Jason Voorhees Heart">
+    <img src="img/jv.jpg" id="jumpscareImage" alt="Jason Voorhees Heart">
 </div>
     <div id="result">
     <h2>Result</h2>
