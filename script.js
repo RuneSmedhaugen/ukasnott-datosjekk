@@ -71,7 +71,7 @@ function calculateDate() {
 
         const jumpscareAudio = new Audio("sound/jumpscare.mp3");
         jumpscareAudio.play();
-
+        
         setTimeout(() => {
           const evilLaughAudio = new Audio("sound/el.mp3");
           evilLaughAudio.play();
